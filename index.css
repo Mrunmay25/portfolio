@@ -1,0 +1,325 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+    background-color:rgb(17, 16, 16) ;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin-inline: 22px;
+}
+ul li a:hover{
+    color: rgb(0, 89, 255);
+    border-bottom: 2px solid rgb(0, 89, 255);
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 50%;
+     font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+    background:rgb(0, 204, 255);
+    color: #081b29;
+    box-shadow: 0 0 20px rgb(0, 140, 255);
+}    
+#bar{
+    display: none; 
+}
+
+
+.logo{
+    font-size: 22px;
+}
+.logo span{
+    color: rgb(0, 89, 255);
+}
+/* #bar{
+    size: 200px 200px;
+    color: white;
+} */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.main img{
+    height: 700px;
+    width: 600px;border-radius: 50%;
+    border: 4px solid rgb(0, 89, 255);
+    
+    margin-inline: 80px;
+}
+.maintext h1{
+    font-size: 70px;
+
+}
+.maintext h1 span{
+    color: rgb(0, 89, 255);
+
+}
+.maintext h3{
+    font-size: 28px;
+}
+.maintext p{
+    font-size: 30px;
+}
+.maintext button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(0, 119, 255);
+    font-size: 19px;
+    border: none;
+    margin-top: 24px;
+    color: white;
+}
+button:hover{
+    border: 2px solid rgb(0, 89, 255);
+    background-color: transparent;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+.head span{
+    color: rgb(0, 89, 255);
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(29, 27, 27);
+    padding: 65px;
+}
+
+.about img{
+    width: 250px;
+    border-radius: 50%;
+    border: 4px solid rgb(0, 89, 255);
+    margin-inline: 80px;
+}
+
+.about p{
+    margin-top: 22px;
+}
+.about h2 span{
+    color: rgb(0, 89, 255);
+}
+.about p span{
+    color: rgb(170, 162, 162);
+}
+.about h2{
+    font-size: 30px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    padding: 40px;
+    background-color: rgb(27, 26, 26);
+    margin-inline: 20px;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+.card h3{
+    color: rgb(0, 89, 255);
+}
+.card p{
+    margin-top: 11px;
+}
+.card i{
+    font-size: 22px;
+}
+/* .mywork{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.workcard{
+    width: 300px;
+    height: 310px;
+    background-color: rgba(46, 44, 44, 0);
+    border-radius: 5px;
+    margin-inline: 20px;
+    padding: 11px;
+    margin-top: 22px;
+}
+.workcard img {
+    width: 100%;
+    height: 200px;
+}
+.workcard p{
+    margin-top: 11px;
+}
+.workcard a{
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    padding: 6px 12px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+} */
+.contact{
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(32, 31, 31);
+    margin: auto;
+}
+.contact input{
+    width: 90%;
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid white;
+    background-color:  transparent;
+    color: white;
+    margin-top: 3px;
+}
+.contact p {
+    margin-top: 20px;
+}
+.contact button {
+    width: 90px;
+    height: 28px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top:22px ;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 55px;
+    margin-top: 66px;
+    background-color: rgb(36, 34, 34);
+}
+.text h3{
+    color: rgb(0, 60, 255);
+}
+.text{
+    margin-top: 22px;
+}
+.text p{
+    margin-top: 12px ;
+    font-size: 15px;
+}
+
+@media screen and  (max-width:1000px){
+    .main{
+        display: block;
+        text-align: center ;
+        margin-top: 155px
+        
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    ul{
+        display: none;
+    }
+    .showdata{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 23px;
+        background-color: rgb(70, 68, 68);
+        gap: 20px;
+        border-radius: 5px;
+        position: fixed;
+        top: 75px;
+        right: 3px;
+    }
+    #bar{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+@media screen  and (max-width:550px) {
+    .maintext h1{
+        font-size: 36px;
+
+    }
+    .maintext h3{
+        font-size: 21px;
+    }
+    .maintext p{
+        font-size: 20px;
+    }
+    .main img{
+        width: 90%;
+    }
+    .contact{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
